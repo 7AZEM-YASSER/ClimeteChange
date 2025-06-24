@@ -103,7 +103,7 @@ export default function Home() {
       }}
     >
       <ThemeProvider theme={theme}>
-        <Container maxWidth="lg" color="success">
+        <Container maxWidth="sm" color="success">
           <Card
             sx={{
               backgroundImage:
@@ -130,7 +130,7 @@ export default function Home() {
             </CardActions>
             <Divider variant="middle" />
             <CardContent sx={{ p: "15px !important" }}>
-              <Grid container sx={{ p: "0 20px" }}>
+              <Grid container sx={{ p: "0 15px" }}>
                 <Grid size={6}>
                   <Box display={"flex"} justifyContent={"flex-start"} alignItems={"center"}>
                     <Typography

@@ -27,6 +27,12 @@
   }
 }
 
+@media (max-width: 768px) {
+  .custamGrid {
+    width: 100% !important;
+  }
+}
+
 .main {
   display: flex;
   flex-direction: column;

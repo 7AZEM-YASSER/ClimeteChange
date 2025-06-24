@@ -1,9 +1,9 @@
 :root {
-  --background: #ffffff;
+  --background: #0d47a1;
   --foreground: #171717;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: white) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
@@ -19,9 +19,6 @@ body {
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 * {
@@ -40,3 +37,39 @@ a {
     color-scheme: dark;
   }
 }
+
+@font-face {
+  font-family: IBM;
+  src: url(../../public/fonts/IBMPlexSansArabic-Light.ttf);
+  /* weight: 100; */
+}
+/* 
+@font-face {
+  font-family: IBM;
+  src: url(../../public/fonts/IBMPlexSansArabic-Light.ttf);
+  weight: 200;
+}
+
+@font-face {
+  font-family: IBM;
+  src: url(../../public/fonts/IBMPlexSansArabic-Medium.ttf);
+  weight: 300;
+}
+
+@font-face {
+  font-family: IBM;
+  src: url(../../public/fonts/IBMPlexSansArabic-Regular.ttf);
+  weight: 400;
+}
+
+@font-face {
+  font-family: IBM;
+  src: url(../../public/fonts/IBMPlexSansArabic-SemiBold.ttf);
+  weight: 500;
+}
+
+@font-face {
+  font-family: IBM;
+  src: url(../../public/fonts/IBMPlexSansArabic-Bold.ttf);
+  weight: 600;
+} */

@@ -131,7 +131,7 @@ export default function Home() {
             <Divider variant="middle" />
             <CardContent sx={{ p: "15px !important" }}>
               <Grid container sx={{ p: "0 15px" }}>
-                <Grid className={styles.custamGrid} size={6}>
+                <Grid size={6}>
                   <Box display={"flex"} justifyContent={"flex-start"} alignItems={"center"}>
                     <Typography
                       variant="h1"
